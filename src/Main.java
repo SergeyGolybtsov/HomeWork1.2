@@ -55,7 +55,7 @@ public class Main {
         var workers = workTime / normTime;
         System.out.println("Всего работников в компании - " + workers + " человек");
         workers = workers + 94;
-        var workHours = workTime / workers;
+        var workHours = normTime * workers;
         System.out.println("Если в компании работает " + workers + " человек, то всего " + workHours + " часов работы может быть проделанно между сотрудниками");
     }
 }
